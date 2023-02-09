@@ -10,6 +10,13 @@
       "StackName": "amplify-phantasiaamplify-dev-113150",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:014934579873:stack/amplify-phantasiaamplify-dev-113150/58f200f0-a86d-11ed-872d-0675ebe87ea9",
       "AmplifyAppId": "d3484r5fe543y7"
+    },
+    "categories": {
+      "function": {
+        "phantasiaamplify2692aa41": {
+          "secretsPathAmplifyAppId": "d3484r5fe543y7"
+        }
+      }
     }
   }
 }

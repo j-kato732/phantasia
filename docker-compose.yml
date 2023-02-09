@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+    amplify:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        volumes:
+            - ./app:/phantasia
+            - ~/.aws/:/root/.aws/
+            - ~/.ssh/:/root/.ssh/
+        ports:
+            - "3000:3000"
+        tty: true
+        # command: sh -c "yarn install && yarn dev"

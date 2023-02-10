@@ -14,7 +14,9 @@
     "categories": {
       "function": {
         "phantasiaamplify785c69d5": {
-          "secretsPathAmplifyAppId": "d3484r5fe543y7"
+          "secretsPathAmplifyAppId": "d3484r5fe543y7",
+          "deploymentBucketName": "amplify-phantasiaamplify-dev-113150-deployment",
+          "s3Key": "amplify-builds/phantasiaamplify785c69d5-676c497a31476a492f66-build.zip"
         }
       }
     }

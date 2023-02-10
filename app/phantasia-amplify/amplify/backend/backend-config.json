@@ -8,6 +8,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_phantasiaamplify785c69d5_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phantasiaamplify785c69d5"
+        }
+      ]
+    },
+    "AMPLIFY_function_phantasiaamplify785c69d5_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phantasiaamplify785c69d5"
+        }
+      ]
+    },
     "AMPLIFY_function_phantasiaamplify785c69d5_secretsPathAmplifyAppId": {
       "usedBy": [
         {

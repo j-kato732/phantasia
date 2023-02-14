@@ -1,5 +1,29 @@
 {
-  "function": {},
+  "api": {
+    "apib7cdfc30": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "phantasiaBackend"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {},
+  "function": {
+    "phantasiaBackend": {
+      "build": true,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
   "hosting": {
     "amplifyhosting": {
       "providerPlugin": "awscloudformation",
@@ -8,6 +32,22 @@
     }
   },
   "parameters": {
+    "AMPLIFY_function_phantasiaBackend_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phantasiaBackend"
+        }
+      ]
+    },
+    "AMPLIFY_function_phantasiaBackend_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "phantasiaBackend"
+        }
+      ]
+    },
     "AMPLIFY_hosting_amplifyhosting_appId": {
       "usedBy": [
         {

@@ -14,6 +14,12 @@
     "categories": {
       "function": {
         "phantasiaamplify785c69d5": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3484r5fe543y7",
+          "type": "manual"
+        }
       }
     }
   }
